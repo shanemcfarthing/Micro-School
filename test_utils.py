@@ -7,7 +7,7 @@ the linter workflow.
 """
 
 import pytest
-from utils import add, divide, is_palindrome
+from utils import add, divide, is_palindrome, multiply
 
 def test_add():
     """Test that add() correctly sums two numbers."""
@@ -21,6 +21,10 @@ def test_divide_by_zero():
     """Test that divide() raises ValueError when dividing by zero."""
     with pytest.raises(ValueError):
         divide(10, 0)
+
+def test_multply():
+    """Test that multiply() correctly multiplies two numbers."""
+    assert multiply(3,4) == 12
 
 def test_is_palindrome_true():
     """Test that is_palindrome() returns True for a palindrome string."""

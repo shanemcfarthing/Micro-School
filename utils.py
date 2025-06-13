@@ -33,6 +33,19 @@ def divide(a, b):
         raise ValueError("Cannot divide by zero.")
     return a / b
 
+def multiply(a, b):
+    """
+    Return the product of two numbers.
+
+    Args:
+        a (int or float): First number.
+        b (int or float): Second number.
+
+    Returns:
+        int or float: The product of a and b.
+    """
+    return a * b
+
 def is_palindrome(s):
     """
     Check if a string is a palindrome.
