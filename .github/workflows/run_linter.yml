@@ -1,0 +1,11 @@
+name: Run Linter on Python Files
+
+on: push
+
+jobs:
+  lint:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Run linter using action from GitHub Actions marketplace
+        uses: programmingwithalex/pylinter@v1.4.3
