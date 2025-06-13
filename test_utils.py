@@ -1,6 +1,9 @@
 """
 A module containing unit tests for the 
-simple functions in utils.py
+simple functions in utils.py.
+
+This is an example for a commit that will trigger
+the linter workflow.
 """
 
 import pytest
